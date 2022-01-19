@@ -1,0 +1,19 @@
+.outsideDiv{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    background-color:lightgray;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.insideDiv{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.downloadJson{
+    position: absolute;
+    left: 33%;
+    margin-top: 20px;
+}
