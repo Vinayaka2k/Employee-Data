@@ -41,3 +41,7 @@
 - Phone Number, Name and Desingation validation : Using regex
 - Downloading JSON part : Created a blob and assigned it's address to an anchor tag and clicked the tag using Javascript.
 - Other minor validations wherever seen apt
+
+#### Further Improvements
+- Similar to a '+' button for adding new Fields Dynamically, it would be awesome to have a '-' button to delete the fields. This could be easily implemented by displaying the '-' button along with the contacts and regsitering an onClick handler to pop the last element of the contacts array
+
