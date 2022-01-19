@@ -68,7 +68,7 @@ const App = (props) => {
     }
 
     const handleNameChange = (event) => {
-          var re = new RegExp("^[a-zA-Z]+$");
+          var re = new RegExp("^[a-z A-Z]+$");
           if(re.test(event.target.value)){
             setName(event.target.value);
           }
@@ -82,7 +82,7 @@ const App = (props) => {
     
 
     const handleDesignationChange = (event) => {
-        var re = new RegExp("^[a-zA-Z]+$");
+        var re = new RegExp("^[a-z A-Z]+$");
         if(re.test(event.target.value)){
           setDesignation(event.target.value);
         }
